@@ -1,0 +1,43 @@
+# Secrets & credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs and Task Outputs
+logs/
+.minecraft-ai/
+
+# Runtime config & local prompt history
+config/
+
+# Local export dumps & temporary files
+codebase_export.json
+codebase_manifest.json
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Minecraft Run directory
+run/

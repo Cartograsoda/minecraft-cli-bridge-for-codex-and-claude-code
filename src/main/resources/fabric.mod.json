@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "claude_codex_chat",
+  "version": "${version}",
+  "name": "Claude & Codex Chat Bridge",
+  "description": "Turn Minecraft chat into a live monitor and interface for local Claude Code and Codex CLI.",
+  "authors": [
+    "Cartograsoda"
+  ],
+  "contact": {},
+  "license": "Unlicense",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.minecraftai.mod.ClaudeCodexMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
